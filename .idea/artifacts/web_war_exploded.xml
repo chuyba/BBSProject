@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/BCrypt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/commons-dbcp2-2.9.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/commons-pool2-2.11.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/fastjson-1.2.83.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../dev/lib/mysql-connector-j-8.0.31.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web/web/Web" />
+    </root>
+  </artifact>
+</component>
